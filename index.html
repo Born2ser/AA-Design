@@ -8,22 +8,25 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+<div class="parent_wrapper">
     <div class="wrapperblue">
+    <div class="nav_wrapper">
         <section class="nav">
             <nav>
                 <div class="img">
-                    <img src="/Asset/logo.svg" alt="" class="logo">
+                    <a href="#" class="logo_parent"><img src="/Asset/logo.svg" alt="" class="logo"></a>
                 </div>
                 <div class="list">
                     <ul>
-                        <li>Work</li>
-                        <li>About Us</li>
-                        <li>Process</li>
-                        <li>Start Project</li>
+                        <a href="#" class="items"><li>Work</li></a>
+                        <a href="#" class="items"><li>About Us</li></a>
+                        <a href="#"  class="items"><li>Process</li></a>
+                        <a href="#" class="items"><li>Start Project</li></a>
                     </ul>
                 </div>
             </nav>
         </section>
+    </div>
         <section class="hero_text">
             <h1><span>Shaping</span> the<br>
                 world of design</h1>
@@ -36,7 +39,7 @@
             <img src="/Asset/Video_button.svg" alt="" class="video_button">
         </section>
         <section class="known4">
-            <p>“We are a digital agency that helps build <br>
+            <p  id="known4">“We are a digital agency that helps build <br>
                 global and local brands to help them stand <br>
                 out and deliver awesome products in the <br>
                 digital space”</p>
@@ -138,7 +141,54 @@
             </div>
             <a href="" class="view">View all case studies</a>  
         </section>
-        
+        <section class="white">
+            <div class="get_in_touch">
+                <h1>Your project is best handled <br> by a professional</h1>
+                <p>We are a digital agency that helps build global and local 
+                    <br> brands to help them stand out and deliver awesome <br>
+                     products in the digital space</p>
+                     <a href="#">Get in touch</a>
+            </div>
+        </section>
     </div>
+    <footer>
+        <div class="footer">
+            <div class="sec1">
+                <img src="/Asset/footerlogo.png" alt="">
+                    <li><a href="#">We shape</a></li>
+                    <li><a href="#">global brands</a></li>
+                    <li><a href="#">info@aadesign.com</a></li>
+              
+            </div>
+            <div class="sec2">
+                <p>What we do</p>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </div>
+            <div class="sec3">
+                <p>Who we are</p>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Insights</a></li>
+                <li><a href="#">Join our team</a></li>
+            </div>
+            <div class="sec4">
+                <p>Follow us</p>
+                <li><a href="#">Dribble</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Facebook</a></li>
+            </div>
+        </div>
+        <hr>
+        <div class="footer_copyright">
+            <div class="c2022"><p>(c) 2022 AA.Design</p></div>
+            <div class="privacy"><p>Privacy</p>
+            </div>
+        </div>
+    </div>
+    </footer>
 </body>
+<script src="/script.js"></script>
 </html>
